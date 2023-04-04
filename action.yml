@@ -1,0 +1,26 @@
+name: Array to object action
+description: Transform array with data to key-value object
+author: Andrei Izotov
+inputs:
+  data:
+    required: true
+    description: Data in JSON format
+  keyProperty:
+    required: true
+    description: Property in each array element to use as key
+  valueProperty:
+    required: true
+    description: Property in each array element to use as value
+  output:
+    required: false
+    default: data
+    description: Output variable name
+outputs:
+  data:
+    description: Data in JSON format
+runs:
+  using: node16
+  main: dist/index.js
+branding:
+  icon: dollar-sign
+  color: gray-dark
