@@ -9,7 +9,12 @@ const valueProperty = getInput("valueProperty", { required: true });
 const output = getInput("output", { required: false });
 
 const resultObject = data.reduce((acc, item) => {
-    acc[item[keyProperty]] = item[valueProperty];
+    if (!item.hasOwnProperty(keyProperty)) {
+        console.warn("Element doesn't have key property", item);
+    } else {
+        acc[item[keyProperty]] = item[valueProperty];
+    }
+
     return acc;
 }, {});
 
