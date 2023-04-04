@@ -10,7 +10,7 @@ You have data in the following format:
 [
   {
     "key": "key1",
-    "value: "value1"
+    "value": "value1"
   },
   {
     "key": "key2",
@@ -19,7 +19,7 @@ You have data in the following format:
 ]
 ```
 
-And you need to tranform it to the following:
+And you need to transform it to the following:
 
 ```json
 {
