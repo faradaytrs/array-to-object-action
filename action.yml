@@ -19,7 +19,7 @@ outputs:
   data:
     description: Data in JSON format
 runs:
-  using: node16
+  using: node20
   main: dist/index.js
 branding:
   icon: dollar-sign
