@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 20.19.5
-    version: 20.19.5
+    specifier: 20.19.6
+    version: 20.19.6
   '@vercel/ncc':
     specifier: 0.38.3
     version: 0.38.3
@@ -45,8 +45,8 @@ packages:
     resolution: {integrity: sha512-wi9JjgKLYS7U/z8PPbco+PvTb/nRWjeoFlJ1Qer83k/3C5PHQi28hiVdeE2kHXmIL99mQFawx8qt/JPjZilJ8Q==}
     dev: false
 
-  /@types/node@20.19.5:
-    resolution: {integrity: sha512-M4CtoNkoQrYOD7O80KM7DjGdzwMvoXZ12SGUbxc0X1AK6gfBKjkJswW/B4MyTPMIuU0sodukEgj8CzIJKEAQXQ==}
+  /@types/node@20.19.6:
+    resolution: {integrity: sha512-uYssdp9z5zH5GQ0L4zEJ2ZuavYsJwkozjiUzCRfGtaaQcyjAMJ34aP8idv61QlqTozu6kudyr6JMq9Chf09dfA==}
     dependencies:
       undici-types: 6.21.0
     dev: true
