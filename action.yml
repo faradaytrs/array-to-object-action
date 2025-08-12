@@ -19,8 +19,8 @@ outputs:
   data:
     description: Data in JSON format
 runs:
-  using: node20
-  main: dist/index.js
+  using: node24
+  main: dist/index.cjs
 branding:
   icon: dollar-sign
   color: gray-dark
