@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "typescript": "5.9.2",
-    "@types/node": "20.19.14",
+    "@types/node": "20.19.15",
     "esbuild": "0.25.9"
   },
   "keywords": [],
