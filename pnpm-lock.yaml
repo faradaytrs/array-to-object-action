@@ -13,8 +13,8 @@ importers:
         version: 1.11.1
     devDependencies:
       '@types/node':
-        specifier: 20.19.17
-        version: 20.19.17
+        specifier: 20.19.18
+        version: 20.19.18
       esbuild:
         specifier: 0.25.10
         version: 0.25.10
@@ -192,8 +192,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/node@20.19.17':
-    resolution: {integrity: sha512-gfehUI8N1z92kygssiuWvLiwcbOB3IRktR6hTDgJlXMYh5OvkPSRmgfoBUmfZt+vhwJtX7v1Yw4KvvAf7c5QKQ==}
+  '@types/node@20.19.18':
+    resolution: {integrity: sha512-KeYVbfnbsBCyKG8e3gmUqAfyZNcoj/qpEbHRkQkfZdKOBrU7QQ+BsTdfqLSWX9/m1ytYreMhpKvp+EZi3UFYAg==}
 
   esbuild@0.25.10:
     resolution: {integrity: sha512-9RiGKvCwaqxO2owP61uQ4BgNborAQskMR6QusfWzQqv7AZOg5oGehdY2pRJMTKuwxd1IDBP4rSbI5lHzU7SMsQ==}
@@ -307,7 +307,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.10':
     optional: true
 
-  '@types/node@20.19.17':
+  '@types/node@20.19.18':
     dependencies:
       undici-types: 6.21.0
 
