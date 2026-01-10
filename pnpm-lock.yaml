@@ -13,8 +13,8 @@ importers:
         version: 2.0.2
     devDependencies:
       '@types/node':
-        specifier: 24.10.5
-        version: 24.10.5
+        specifier: 24.10.6
+        version: 24.10.6
       esbuild:
         specifier: 0.27.2
         version: 0.27.2
@@ -196,8 +196,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@types/node@24.10.5':
-    resolution: {integrity: sha512-tPacJqtEN9wmsHA9YKHxDQlODhoUN3SFQV8kCiWc4oCV1QjbigUNHH8xH3KAyM963jGRCmeDGsBl4ePSgsFivA==}
+  '@types/node@24.10.6':
+    resolution: {integrity: sha512-B8h60xgJMR/xmgyX9fncRzEW9gCxoJjdenUhke2v1JGOd/V66KopmWrLPXi5oUI4VuiGK+d+HlXJjDRZMj21EQ==}
 
   esbuild@0.27.2:
     resolution: {integrity: sha512-HyNQImnsOC7X9PMNaCIeAm4ISCQXs5a5YasTXVliKv4uuBo1dKrG0A+uQS8M5eXjVMnLg3WgXaKvprHlFJQffw==}
@@ -318,7 +318,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@types/node@24.10.5':
+  '@types/node@24.10.6':
     dependencies:
       undici-types: 7.16.0
 
